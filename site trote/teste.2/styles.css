@@ -153,7 +153,239 @@ th {
     height: 25px;
     border-radius: 4px;
 }
-.principal-provas {
+
+.box-cinza {
+    background-color: #808080;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.box-laranja {
+    background-color: #f39c12;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.box-vermelha {
+    background-color: #ff4000;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.box-preta {
+    background-color: #000000;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.box-rosa {
+    background-color: #ff69b4;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.box-roxa {
+    background-color: #8e44ad;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.box-verde {
+    background-color: #27ae60;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.box-vermelha-claro {
+    background-color: #ff1500;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.rodape {
+    background-color: #1e3c72;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    margin-top: 30px;
+}
+
+.rodape p {
+    margin: 4px 0;
+}
+
+.principal-formato {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    padding: 30px 20px 20px;
+}
+
+.texto-formato p {
+    line-height: 1.6;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+.card-branco {
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-abertura {
+    background: #eef5ff;
+    border-left: 5px solid #2a5298;
+    border-radius: 8px;
+    padding: 18px 20px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+.card-abertura p {
+    margin: 0 0 10px 0;
+}
+
+.card-abertura p:last-child {
+    margin-bottom: 0;
+}
+
+.etapas-grid {
+    display: flex;
+    gap: 0;
+    background: #dce8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.etapa-box {
+    flex: 1;
+    padding: 22px 24px;
+    border-left: 5px solid #2a5298;
+}
+
+.etapa-box + .etapa-box {
+    border-left: 2px solid #b8ccee;
+}
+
+.etapa-box h4 {
+    margin: 0 0 10px 0;
+    font-size: 0.97rem;
+    color: #1e3c72;
+}
+
+.etapa-box p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.resumo-provas {
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.resumo-provas h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.resumo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0;
+}
+
+.resumo-table thead tr {
+    background-color: #1e3c72;
+    color: white;
+}
+
+.resumo-table thead th {
+    padding: 12px 16px;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.resumo-table tbody td {
+    padding: 10px 16px;
+    font-size: 0.93rem;
+    border-bottom: none;
+    vertical-align: top;
+}
+
+.resumo-table tbody tr:nth-child(odd) td {
+    background: transparent;
+}
+
+.col-etapa1 {
+    color: #27ae60;
+    width: 50%;
+}
+
+.col-etapa2 {
+    color: #8e44ad;
+    width: 50%;
+}
+
+.card-honra {
+    background: #fffbe6;
+    border: 2px solid #f0c040;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+}
+
+.card-honra h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.card-honra p {
+    margin-bottom: 14px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.lista-honra {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lista-honra li {
+    background: #f5f5f5;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border-left: 4px solid #ccc;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.principal-integracao {
     max-width: 900px;
     margin: 0 auto 40px;
     padding: 30px 20px 20px;
@@ -171,52 +403,30 @@ th {
 .prova-card h3 {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     color: #1e3c72;
 }
 
 .prova-card h4 {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 8px;
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #1e3c72;
 }
 
-.borda-verde {
-    border-left-color: #27ae60;
+.prova-card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
-.borda-vermelha {
-    border-left-color: #e74c3c;
-}
+.borda-neutra  { border-left-color: #2a5298; }
+.borda-amarela { border-left-color: #f0c040; }
+.borda-verde   { border-left-color: #27ae60; }
+.borda-vermelha{ border-left-color: #e74c3c; }
 
-.borda-amarela {
-    border-left-color: #f0c040;
-}
-
-.borda-neutra {
-    border-left-color: #2a5298;
-}
-
-.box-kit {
-    background-color: #fffbe6;
-    border: 2px dashed #f0c040;
-    border-radius: 8px;
-    padding: 15px 20px;
-    margin: 15px 0;
-}
-
-.lista-kit {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.lista-kit li {
-    padding: 6px 0;
-    color: #27ae60;
-    font-weight: 500;
-    font-size: 0.95rem;
+.card-acao-social {
+    background: #fffbe6;
+    border-left: 6px solid #f0c040;
 }
 
 .lista-info {
@@ -233,35 +443,52 @@ th {
     line-height: 1.5;
 }
 
-.info-verde {
-    background-color: #eafaf1;
-    color: #1e8449;
+.info-amarela  { background-color: #fef9e7; color: #b7950b; }
+.info-azul     { background-color: #eef5ff; color: #1a4a8a; }
+.info-vermelha { background-color: #fdecea; color: #922b21; }
+.info-verde    { background-color: #eafaf1; color: #1e8449; }
+.info-medalha  { background-color: #f5f5f5; color: #555; }
+
+.lista-criterios {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
 }
 
-.info-amarela {
-    background-color: #fef9e7;
+.lista-criterios li {
     color: #b7950b;
+    font-size: 0.95rem;
+    padding: 3px 0;
+}
+/* Estilos para a calculadora de pontos */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
-.info-azul {
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.resultado-box {
+    margin-top: 20px;
+    padding: 15px;
     background-color: #eef5ff;
-    color: #1a4a8a;
-}
-
-.info-medalha {
-    background-color: #f5f5f5;
-    color: #555;
-}
-
-.rodape {
-    background-color: #1e3c72;
-    color: #ccc;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.85rem;
-    margin-top: 30px;
-}
-
-.rodape p {
-    margin: 4px 0;
+    border-left: 5px solid #1e3c72;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
